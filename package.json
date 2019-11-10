@@ -1,0 +1,43 @@
+{
+  "name": "rest-backend-creator",
+  "version": "1.0.4",
+  "description": "This package allows you to create a configurable nodejs backend that uses mongodb as database. It automatically creates the db collection and all the REST services.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moroale93/rest-backend-creator.git"
+  },
+  "keywords": [
+    "rest",
+    "nodejs",
+    "mongodb",
+    "backend",
+    "configurable"
+  ],
+  "author": "nodejs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moroale93/rest-backend-creator/issues"
+  },
+  "homepage": "https://github.com/moroale93/rest-backend-creator#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.2",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "peerDependencies": {
+    "mongodb": "^3.3.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6"
+  }
+}
